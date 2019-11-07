@@ -22,13 +22,10 @@ function App() {
   console.log(data);
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
-      <p>test1</p>
+     <h1>Nasa's Image of the Day</h1>
+      <p>Created by Josiah Williams</p>
       <CreatePhoto obj={data}/>
-      </div>
+    </div>
   );
 }
 

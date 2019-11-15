@@ -24,7 +24,7 @@ function App() {
     <div className="App">
      <h1>Nasa's Image of the Day</h1>
       <p>Created by Josiah Williams</p>
-      <CreatePhoto obj={data}/>
+      { data && <CreatePhoto obj={data} /> }
     </div>
   );
 }
